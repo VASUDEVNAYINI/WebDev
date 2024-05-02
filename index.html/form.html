@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        
+    </head>
+
+    <body>
+       <fieldset><!-------name area-->
+        <legend>Name</legend>
+       <form>
+        <label for="firstname" >First Name</label>
+        <input type="text" name="firstname" id="firstname">
+
+        <br>
+
+        <label for="secondname">Second Name</label>
+        <input type="text" name="secondname" id="secondname">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Selecet your fav</legend>
+
+        <label for="lang">Select Your Fav Lang</label>
+        <select id="lang">
+            <optgroup label="FRONTEND">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JS</option>
+            </optgroup>
+
+            <optgroup label="BACKEND">
+            <option>NODE JS</option>  
+            <option>EXPRESS</option>
+            <option>JS</option>
+            </optgroup> 
+        </select>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Write your opion </legend>
+        <textarea> enter any thing about your fav language </textarea>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend> Enter your lang</legend>
+
+        <label>Enter your fav language</label>
+        <input list="choose">
+        <datalist id="choose">
+            <option value="htmal"></option> 
+            <option value="css"></option>
+            <option value="JS"></option>
+            <option value="node js"></option>
+
+        </datalist>
+
+        </fieldset>
+
+        <br>
+
+        <button type="submit">SUBMIT</button>
+        <button type="replace">REPLCE</button>
+
+       </form>
+    
+
+    </body>
+
+</html>
